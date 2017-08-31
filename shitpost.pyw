@@ -16,6 +16,4 @@ while 1:
 	elem = w.find_element_by_xpath("//div[@class='']//*[@placeholder='Message #botspam_shitpost']")
 	elem.send_keys("=bump")
 	elem.send_keys(Keys.RETURN)
-	elem.send_keys(".pick")
-	elem.send_keys(Keys.RETURN)
 	pause.hours(4.02)
